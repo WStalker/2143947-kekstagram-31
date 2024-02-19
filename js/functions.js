@@ -16,7 +16,7 @@ const checkPalindrome = (string) => {
 
   let controlString = '';
 
-  for (let i = normalizedString.length - 1; i > -1; i--) {
+  for (let i = normalizedString.length - 1; i >= 0; i--) {
     controlString += normalizedString[i];
   }
 
